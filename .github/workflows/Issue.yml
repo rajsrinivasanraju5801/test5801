@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Printing content of Issues
-      - run: echo  ${{ github.event.issue.title }}
+      - run: echo  "${{ github.event.issue.title }}"
       
 
 
