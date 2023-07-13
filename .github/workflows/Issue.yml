@@ -15,6 +15,7 @@ jobs:
       - name: Printing content of Issues
         run: 
          echo  "${{ github.event.issue.title }}"
+         echo  "${{ github.event.issue.body }}"
       
 
 
