@@ -11,8 +11,8 @@ jobs:
   print:
     runs-on: ubuntu-latest
     steps:
-      - name: Printing content
-      - run: echo "Deploying to production server on branch $GITHUB_REF"
+      - name: Printing content of Issues
+      - run: echo  ${{ github.event.issue.title }}
       
 
 
